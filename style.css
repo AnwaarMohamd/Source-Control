@@ -1,8 +1,8 @@
-*{
+* {
     margin: 0;
 }
 
-h1{
+h1 {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -10,7 +10,7 @@ h1{
     margin-bottom: 10px;
 }
 
-p{
+p {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -34,4 +34,18 @@ button {
 
 button:hover {
     background-color: #2980b9;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+h1 {
+    animation: fadeIn 3s ease-in-out;
 }
